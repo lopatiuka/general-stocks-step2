@@ -1,0 +1,146 @@
+body {
+    font-family: Poppins;
+    display: flex;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 407px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.6), 9px 9px 16px rgba(179, 179, 179, 0.25);
+    border-radius: 30px;
+    background-color: #F9F9F9;
+}
+
+.form-container img {
+    margin-top: 50px;
+    /* width: 166.99px;
+    height: 100px;     */
+}
+
+.form-container h2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2E2E2E;
+    margin-top: 50px;
+}
+
+.form-container h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #1367CD;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container form input {
+    width: 307.7px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #606060;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #606060;
+    margin-top: 30px;
+    background-color: inherit;
+}
+
+input::-moz-placeholder { 
+    color: #606060; 
+}
+
+input::-webkit-input-placeholder { 
+    color: #606060; 
+}
+
+.form-container form input:focus {
+    outline: none;
+}
+
+.form-container form input[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    height: 68px;
+    background-color: #1D46F6;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.form-container form input[type=submit]:hover{
+    background-color: #1428BF;
+    cursor: pointer; 
+}
+
+.form-container form input[type=submit]:active{
+    background-color: #0E1E9B;
+}
+
+.form-container form .checkboxes {
+    width: 307.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.form-container form input[type=checkbox] {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.form-container form .checkboxes label {
+    display: flex;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.form-container form .checkboxes label span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #606060;
+}
+
+.form-container form .checkboxes label span a {
+    display: inline-block;
+    color: #1367CD;
+    text-decoration: none;
+    transition-property: text-decoration;
+    transition-duration: 0.2s;
+}
+
+.form-container form .checkboxes label span a:hover {
+    text-decoration: underline;
+}
